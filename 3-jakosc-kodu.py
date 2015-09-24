@@ -36,7 +36,7 @@ class MathTest(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
     
-python python/tests/test.py
+# python python/tests/test.py
     
 # Asercje w testach
 
@@ -56,7 +56,7 @@ self.assertItemsEqual((2, 3), [2, 3])
 
 # Code coverage
 
-sudo pip install coverage
-coverage run python/hello.py
-coverage report -m
-coverage html
+# sudo pip install coverage
+# coverage run python/hello.py
+# coverage report -m
+# coverage html
