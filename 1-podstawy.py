@@ -9,10 +9,10 @@ limit_var = 10
 def first_function():
     print "Iteracja po " + str(limit_var) + " liczbach" # komentarz!
     for x in range(limit_var):
-    if x == num_var:
-    print "x równe {}".format(x)
-    else:
-    print ""
+        if x == num_var:
+            print "x równe {}".format(x)
+        else:
+            print ""
     
 
 
@@ -25,26 +25,26 @@ def print_word(word):
  
 def print_args(*args):
     for index, value in enumerate(args):
-    print '{0}. {1}'.format(index, value)
+        print '{0}. {1}'.format(index, value)
  
 print_args('apple', 'banana', 'cabbage')
 
 
 def print_kwargs(**kwargs):
     for name, value in kwargs.items():
-    print '{0} is {1}'.format(name, value)
+        print '{0} is {1}'.format(name, value)
     
-print_kwargs(apple = 'fruit', cabbage = 'vegetable')
+print_kwargs(apple='fruit', cabbage='vegetable')
 
 
-def print_default_value(apple, cabbage=’vegetable’, **kwargs):
+def print_default_value(apple, cabbage='vegetable', **kwargs):
     for name, value in kwargs.items():
-    print '{0} is {1}'.format(name, value)
-    print 'Apple is {}'.format(apple)
-    print 'Cabbage is {}'.format(cabbage)
+        print '{0} is {1}'.format(name, value)
+        print 'Apple is {}'.format(apple)
+        print 'Cabbage is {}'.format(cabbage)
  
 print_default_value(apple = 'fruit')
-print default_value(‘fruit’)
+print default_value('fruit')
 
 
 
@@ -92,9 +92,9 @@ for key, val in dishes.items():
 
 # Lista Ocen Studentów przy wykorzystaniu klas
 class Student:
-    imie=""
-    nazwisko=""
-    ocena=0.0
+    imie = ""
+    nazwisko = ""
+    ocena = 0.0
     
 studenci = []
 while True:
