@@ -3,11 +3,11 @@
 
 [ EXPRESSION for VARIABLE in SEQUENCE if CONDITION ]
 
-[ n**2 for n in range(10) if n%2==0 ]
+[ n**2 for n in range(10) if n % 2==0 ]
 
 [ n for n in range(10) ]
 
-{key: value for key, value in enumerate(‘abcde’)}
+{key: value for key, value in enumerate('abcde')}
 
 
 
@@ -16,7 +16,7 @@
 
 lambda VARIABLES: EXPRESSION
 lambda x: x**2
-lambda x ,y, z: (x**2 + y) / z
+lambda x, y, z: (x**2 + y) / z
 
 
 data = [{
@@ -27,7 +27,7 @@ data = [{
     'price': '20',
 }]
 
-sorted(data, key=lambda x: x[‘price’])
+sorted(data, key=lambda x: x['price'])
 
 
 
@@ -37,9 +37,9 @@ sorted(data, key=lambda x: x[‘price’])
 def squares():
     x = 1
     while True:
-    yield x
-    yield x**2
-    x = x + 1
+        yield x
+        yield x**2
+        x = x + 1
 
 sq = squares()
 for x in range(100):
