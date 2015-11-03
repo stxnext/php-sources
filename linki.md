@@ -19,6 +19,7 @@
 ## Nauka - doszkalanie
  * [Python Weekly](http://www.pythonweekly.com/) - newsletter
  * [importpython](http://importpython.com/newsletter/) - newsletter
+ * [Planet Python](http://planetpython.org/) - feed blogów o Pythonie
  * [pyvideo.org](http://www.pyvideo.org/) - wideo z prezentacji na konferencjach
  * [PyCon](http://www.pycon.org/) - największa konferencja Pythonowa
  * [EuroPython](https://europython.eu/) - największa konferencja Pythonowa w Europie
