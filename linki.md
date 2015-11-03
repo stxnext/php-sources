@@ -45,3 +45,5 @@
  * [CheckIO](http://www.checkio.org/)
  * [CodinGame](https://www.codingame.com/)
  * [GROT](http://grot.hackathons.stxnext.pl/), [GROT server](http://grot-server.games.stxnext.pl/)
+ * [CodeCombat](https://codecombat.com)
+ * [CodeWars](http://www.codewars.com)
