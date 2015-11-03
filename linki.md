@@ -32,6 +32,7 @@
  * [php2python.com](http://www.php2python.com/) - Ułatwia znalezienie pythonowego odpowiednika phpowej funkcji
  * [repl.it](https://repl.it/languages/python) - Interaktywna konsola Pythona w przeglądarce
  * [Cloud9](https://c9.io/) - IDE + środowisko
+ * [quantifiedcode](https://www.quantifiedcode.com/) - automatyczne code review
 
 ### IDE
  * [Sublime Text 3](http://www.sublimetext.com/)
