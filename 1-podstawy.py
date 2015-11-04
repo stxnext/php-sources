@@ -67,12 +67,12 @@ import our_application.module
 
 # program losuje zbiór 6 unikatowych liczb od 1 do 49
 from random import choice
-wylosowane = set()
+results = set()
 
-while len(wylosowane) < 6:
-    wylosowane.add(choice(range(1,50)))
+while len(results) < 6:
+    results.add(choice(range(1,50)))
     
-for x in wylosowane:
+for x in results:
     print x
     
     
@@ -92,27 +92,29 @@ for key, val in dishes.items():
 
 # Lista Ocen Studentów przy wykorzystaniu klas
 class Student:
-    imie = ""
-    nazwisko = ""
-    ocena = 0.0
+    name = ""
+    surname = ""
+    mark = 0.0
     
-studenci = []
+students = []
+
+print 'Podanie pustej wartosci konczy wpisywanie'
 while True:
-    nazwisko = raw_input('Podaj nazwisko studenta (pusta wartosc=koniec): ')
-    imie = raw_input('Podaj imie studenta > ')
-    ocena = raw_input('Podaj ocene studenta > ')
-    
-    if not(nazwisko and imie and ocena):
+    surname = raw_input('Podaj nazwisko studenta > ')
+    name = raw_input('Podaj imie studenta > ')
+    mark = raw_input('Podaj ocene studenta > ')
+
+    if not(surname and name and mark):
         break
-    
+
     student = Student()
-    student.nazwisko = nazwisko
-    student.imie = imie
-    student.ocena = float(ocena)
-    studenci.append(student)
+    student.surname = surname
+    student.name = name
+    student.mark = float(mark)
+    students.append(student)
     
 for idx, student in enumerate(studenci):
-    print '{}. {} {} {}'.format(idx+1, student.nazwisko, student.imie, student.ocena)
+    print '{}. {} {} {}'.format(idx+1, student.surname, student.name, student.mark)
     
     
 # DEBUGOWANIE
