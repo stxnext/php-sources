@@ -47,3 +47,6 @@
  * [GROT](http://grot.hackathons.stxnext.pl/), [GROT server](http://grot-server.games.stxnext.pl/)
  * [CodeCombat](https://codecombat.com)
  * [CodeWars](http://www.codewars.com)
+
+## Ciekawostki, artykuły
+ * [Artykuły Python Has Power](http://pythonhaspower.com/artykuly.html)
