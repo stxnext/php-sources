@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 ''' PYLINT, PEP '''
 
 foo = long_function_name(var_one, var_two,
