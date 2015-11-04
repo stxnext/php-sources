@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 ''' COMPREHENSIONS '''
 
 [ EXPRESSION for VARIABLE in SEQUENCE if CONDITION ]
