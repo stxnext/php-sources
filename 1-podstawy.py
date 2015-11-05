@@ -43,11 +43,13 @@ def print_default_value(fruit, vegetable='carrot', **kwargs):
     for name, value in kwargs.items():
         print '{0} is {1}'.format(name, value)
 
-print_default_value('fruit')
+print_default_value('apple')
 # or
-print_default_value(fruit='fruit')
+print_default_value(fruit='apple')
 
-
+print_default_value('apple', 'carrot', meat='spam')
+# or
+print_default_value('apple', meat='spam')
 
 
 ''' IMPORTOWANIE'''
