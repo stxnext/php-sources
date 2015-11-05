@@ -50,3 +50,7 @@
 
 ## Ciekawostki, artykuły
  * [Artykuły Python Has Power](http://pythonhaspower.com/artykuly.html)
+ * [Pythonpedia](https://pythonpedia.com/)
+ * [Full Stack Python](https://www.fullstackpython.com/)
+ * [Awesome Python](http://awesome-python.com/)
+
