@@ -47,9 +47,9 @@ print_default_value('apple')
 # or
 print_default_value(fruit='apple')
 
-print_default_value('apple', 'carrot', meat='spam')
+print_default_value('apple', 'carrot', meat='bacon')
 # or
-print_default_value('apple', meat='spam')
+print_default_value('apple', meat='bacon')
 
 
 ''' IMPORTOWANIE'''
@@ -70,6 +70,7 @@ import our_application.module
 
 # program losuje zbiór 6 unikatowych liczb od 1 do 49
 from random import choice
+
 results = set()
 
 while len(results) < 6:
