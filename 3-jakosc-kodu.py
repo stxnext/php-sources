@@ -1,26 +1,26 @@
 # -*- coding: utf-8 -*-
 ''' PYLINT, PEP '''
 
-foo = long_function_name(var_one, var_two,
-                         var_three, var_four)
- 
-def long_function_name(
-    var_one, var_two, var_three,
-    var_four):
-    print(var_one)
- 
-foo = long_function_name(
-    var_one, var_two,
-    var_three, var_four)
-
-
-foo = long_function_name(var_one, var_two,
-    var_three, var_four)
-    
+# correct
 def long_function_name(
         var_one, var_two, var_three,
         var_four):
     print(var_one)
+
+foo = long_function_name(var_one, var_two, 
+                         var_three, var_four)
+# or
+foo = long_function_name(
+    var_one, var_two, var_three, var_four)
+
+# incorrect
+def long_function_name(
+    var_one, var_two,
+    var_three, var_four):
+    print(var_one)
+
+foo = long_function_name(var_one, var_two,
+    var_three, var_four)
     
 
 
@@ -29,11 +29,13 @@ def long_function_name(
 import unittest
 
 class MathTest(unittest.TestCase):
-    def test_add(self):
-    self.assertEqual(2 + 3, 5)
-    def test_sub(self):
-    self.assertEqual(5 - 3, 2)
-    
+
+   def test_add(self):
+       self.assertEqual(2 + 3, 5)
+
+   def test_sub(self):
+       self.assertEqual(5 - 3, 3)
+
 if __name__ == '__main__':
     unittest.main()
     
