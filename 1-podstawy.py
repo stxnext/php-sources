@@ -27,24 +27,25 @@ def print_args(*args):
     for index, value in enumerate(args):
         print '{0}. {1}'.format(index, value)
  
-print_args('apple', 'banana', 'cabbage')
+print_args('apple', 'banana', 'carrot')
 
 
 def print_kwargs(**kwargs):
     for name, value in kwargs.items():
         print '{0} is {1}'.format(name, value)
     
-print_kwargs(apple='fruit', cabbage='vegetable')
+print_kwargs(fruit='apple', vegetable='carrot')
 
 
-def print_default_value(apple, cabbage='vegetable', **kwargs):
+def print_default_value(fruit, vegetable='carrot', **kwargs):
+    print 'Fruit is {}'.format(fruit)
+    print 'Vegetable is {}'.format(vegetable)
     for name, value in kwargs.items():
         print '{0} is {1}'.format(name, value)
-        print 'Apple is {}'.format(apple)
-        print 'Cabbage is {}'.format(cabbage)
- 
-print_default_value(apple = 'fruit')
-print default_value('fruit')
+
+print_default_value('fruit')
+# or
+print_default_value(fruit='fruit')
 
 
 
