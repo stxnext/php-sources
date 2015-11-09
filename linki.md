@@ -7,6 +7,7 @@
  * [MITx: 6.00.1x](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-6#.U1wSF_lf9LM)
  * [Hyperpolyglot](http://hyperpolyglot.org/scripting) - Poglądowe zestawienie php z pythonem
  * [PySchool](http://www.pyschools.com/) - Zestaw prostych zadań ćwiczących składnię
+ * [PyCharm Edu Edition](https://www.jetbrains.com/pycharm-edu/) - Darmowa dystrybucja PyCharm IDE z wbudowanym kursem Pythona
 
 ## Nauka - następny krok
  * [Python Module of the Week](http://pymotw.com/2/)
