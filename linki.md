@@ -55,4 +55,5 @@
  * [Pythonpedia](https://pythonpedia.com/)
  * [Full Stack Python](https://www.fullstackpython.com/)
  * [Awesome Python](http://awesome-python.com/)
+ * [Python: faster way](http://pythonfasterway.cf/)
 
