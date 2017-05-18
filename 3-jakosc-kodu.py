@@ -7,7 +7,7 @@ def long_function_name(
         var_four):
     print(var_one)
 
-foo = long_function_name(var_one, var_two, 
+foo = long_function_name(var_one, var_two,
                          var_three, var_four)
 # or
 foo = long_function_name(
@@ -21,7 +21,7 @@ def long_function_name(
 
 foo = long_function_name(var_one, var_two,
     var_three, var_four)
-    
+
 
 
 ''' TESTY JEDNOSTKOWE '''
@@ -38,9 +38,9 @@ class MathTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-    
+
 # python python/tests/test.py
-    
+
 # Asercje w testach
 
 self.assertEqual(2 + 3, 5)

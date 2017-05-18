@@ -44,5 +44,5 @@ def squares():
 sq = squares()
 for x in range(100):
     import pdb; pdb.set_trace() # put PDB here and step into functions
-    print "number %s" % sq.next()
-    print "square %s" % sq.next()
+    print("number %s" % next(sq))
+    print("square %s" % next(sq))
